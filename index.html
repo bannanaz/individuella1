@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSEUM – konst, arkitektur, design.</title>
+    <meta name="description" content="Nyöppnade MUSEUM är nordens ledande museum för modern konst, arkitektur och design. Välkommen att besöka våra utställningar på Gärdet i Stockholm.">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <p><strong><a href="#">MUSEUM</a></strong></p>
+                   <nav>
+                       <li><strong><a href="#">UTSTÄLLNINGAR</a></strong></li>
+                       <li><strong><a href="#">KALENDER</a></strong></li>
+                       <li><strong><a href="#">BESÖK OSS</a></strong></li>
+                       <li><strong><a href="#">ÖPPETTIDER</a></strong></li>
+                       <li><strong><a href="#">KONTAKT</a></strong></li>
+                       <li><strong><a href="#">BLI MEDLEM</a></strong></li>
+                   </nav>
+  </header>
+
+ <section class="banner">
+    <a href="https://www.google.com/">Öppet idag! 9.00-18.00</a>
+</section>
+
+  <main class="wrapper">
+  <section class="hero">
+    <div>
+      <h1>KONST ARKITEKTUR DESIGN</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi nisi, rem maxime quibusdam eius quo itaque soluta sunt quas harum, a labore, odit placeat cumque dignissimos ea mollitia excepturi ab.</p>
+    </div>
+    <div>
+      <img src="/img/arkitekture.png">
+    </div>
+  </section>  
+  <br>
+  <section class="shows">
+    <div> 
+      <img src="/img/door.png">
+      <h2>CALIFORNIA</h2>
+      <p><strong>➔ Utställning: 1/10-15/12 2020</strong></p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eum deserunt quam necessitatibus ipsa iure impedit, suscipit rem quas distinctio animi sed debitis delectus, commodi odit odio doloremque totam incidunt.</p>
+    </div>
+    <div>
+      <img src="/img/sky.png">
+      <h2>NEW CUBISM</h2>
+      <p><strong>➔ Utställning: 1/10-15/12 2020</strong></p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum nemo ab impedit adipisci porro reiciendis, est, optio ipsam iure voluptatibus eos nulla. Soluta ipsam praesentium beatae asperiores maxime earum.</p>
+    </div>
+    <div>
+    <img src="/img/stairs.png">
+      <h2>DETAILS</h2>
+      <p><strong>➔ Workshop: 1/10-15/12 2020</strong></p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit fuga non nemo optio ratione, quidem, eius adipisci saepe quisquam atque in. At officia vitae illo ipsum quaerat. Iure, id perferendis.</p>
+    </div>
+  </section>
+
+  <!--
+    <Section id="myDIV" onscroll="myFunction()">
+      <div class="gallery" id="content">
+        <div>
+        <img src="/img/door.png">
+        <h2>KUBISM 1/10-15/12</h2>
+      </div>
+      <div>
+        <img src="/img/sky.png">
+        <h2>KUBISM 1/10-15/12</h2>
+      </div>
+      <div>  
+        <img src="/img/stairs.png">
+        <h2>KUBISM 1/10-15/12</h2>
+      </div>  
+        <img src="/img/above.png">
+        <img src="/img/sky.png">
+        <img src="/img/door.png">
+        </div>
+      </section>  
+-->
+  <br>
+  <section class="current">
+    <div>
+      <img src="/img/kubism.png">
+    </div>
+    <div>
+      <h2>BANANAS</h2>
+      <p><strong>➔ Seminarium: 1/10-15/12 2020</strong></p>
+      <p>Upplev vår inomhusträdgård anlagd av...Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed vel expedita beatae incidunt animi, dolorum quos repellat porro unde adipisci, dignissimos excepturi corrupti et doloribus. Adipisci nostrum exercitationem perspiciatis reiciendis!</p>
+    </div>
+  </section>
+  <br>
+<section class="signup">
+  <aside></aside>
+    <div>
+      <h2>PRENUMERERA PÅ VÅRT NYHETSBREV!</h2>
+      <p>Missa inget! I MUSEUMS nyhetsbrev får du tips om kommande utställningar, aktiviteter och inspirerande kulturhändelser. Fyll i dina kontaktuppgifter i formuläret, och välj intresseområden för en mer pricksäker information. Fält markerade med * är obligatoriska.</p>
+      <br> 
+      <form novalidate>  
+        <fieldset>
+          <legend><strong>Fyll i dina kontaktuppgifter:</strong></legend>
+          <div>
+            <label for="fname">
+              <span><strong>Förnamn<span class="asterisk">*</span></strong></span>
+              <input type="text" class="text" name="fname" id="fname" placeholder="Ditt förnamn" required/>
+              <span class="error" aria-live="polite"></span>
+            </label>
+            <label for="lname">
+              <span><strong>Efternamn<span class="asterisk">*</span></strong></span>
+              <input type="text" name="lname" id="lname" placeholder="Ditt efternamn" required/>
+              <span class="error" aria-live="polite"></span>
+            </label>  
+            <label for="email">
+              <span><strong>E-post<span class="asterisk">*</span></strong></span>
+             <input type="email" id="email" name="email" placeholder="email@example.com" required>
+              <span class="error" aria-live="polite"></span>
+            </label>
+            <label for="phone"><strong>Telefon</strong>
+              <input type="number" name="phone" id="phone" placeholder="+46(0)709-301245"/>
+            </label>
+          </div> 
+        </fieldset> 
+        <br>
+        <br>
+        <fieldset>
+          <legend><strong>Välj vad du är intresserad av:</strong></legend>  
+          <div>
+            <label for="expo" class="cboxcontainer" checked="checked">Utställningar
+              <input type="checkbox" id="expo" name="expo" value="expo">
+              <span class="checkmark"></span>
+            </label>
+            <label for="activities" class="cboxcontainer" checked="checked">Aktiviteter & workshops
+              <input type="checkbox" id="activities" name="activities" value="activities">
+              <span class="checkmark"></span>
+            </label>
+            <label for="online" class="cboxcontainer" checked="checked">Onelineseminarier
+              <input type="checkbox" id="online" name="online" value="online">
+              <span class="checkmark"></span>
+            </label> 
+          </div>
+        </fieldset>
+        <input type="submit" name="submit" id="submit" value="Prenumerera"/>
+      </form>
+    </div>  
+  <aside></aside>  
+</section>
+  <br>
+  <br>
+
+  <h1>BESÖK OSS</h1>
+  <section class="visit">
+    <div class="visitbackground">
+    <div>
+      <h3>Trädgården flyttar in.</h3>
+      <p>Upplev vår inomhusträdgård anlagd av...Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed vel expedita beatae incidunt animi, dolorum quos repellat porro unde adipisci, dignissimos excepturi corrupti et doloribus. Adipisci nostrum exercitationem perspiciatis reiciendis!</p>
+    </div>
+    <div>
+    <img src="/img/dream.png">
+    </div>
+    </div>
+  </section>  
+<br>
+<br>
+<section class="visit2">
+  <div class="visitbackground2">
+    <div>
+      <img src="/img/dream.png">
+      </div>
+  <div>
+    <h3>Trädgården flyttar in.</h3>
+    <p>Upplev vår inomhusträdgård anlagd av...Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed vel expedita beatae incidunt animi, dolorum quos repellat porro unde adipisci, dignissimos excepturi corrupti et doloribus. Adipisci nostrum exercitationem perspiciatis reiciendis!</p>
+  </div>
+  </div>
+</section>  
+<br>
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="wrapper">
+    <div>
+        <h4>KALENDER</h4>  
+        <hr>
+        <p><a href="https://www.google.com/">Utställningar & aktiviteter</a></p>
+        <p><a href="https://www.google.com/">Onlinevisningar</a></p>
+        <p><a href="https://www.google.com/">Webbseminarium</a></p>
+        <br>
+        <h4>INFÖR DITT BESÖK</h4>
+        <hr>
+        <p><a href="https://www.google.com/">Köp biljetter</p></a>
+        <p><a href="https://www.google.com/">Boka guidad visning</p></a>
+        <br>
+    </div>    
+    <div>
+        <h4>ÖPPETTIDER</h4> 
+        <hr> 
+            <p>Mån-fre: 9.00-19.00</p>
+            <p>Lör-sön: 9.00-17.00</p>
+            <p>Se öppettider för helgdagar här</p>
+            <br>
+            <h4>HITTA HIT</h4> 
+            <hr>    
+            <p>Sjöbjörnsvägen 40</p>
+            <p>167 66 Stockholm </p>
+    </div>
+    <div>
+        <h4>KONTAKT</h4> 
+        <hr> 
+      <p>E-post: museum@museum.se</p>
+      <p>Tfn: 0709-30 12 45</p>
+        <br>
+        <h4>FÖLJ OSS: </h4>
+        <hr>
+        <a href="https://www.instagram.com/" target="_blank"><img src="/img/instalogo.png"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="/img/instatvlogo.png"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img src="/img/fblogo.png"></a>
+      </div>
+    </div>
+</footer>      
+
+</body>
+</html>
